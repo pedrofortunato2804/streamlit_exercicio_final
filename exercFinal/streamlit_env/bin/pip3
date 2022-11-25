@@ -1,4 +1,4 @@
-#!/home/enacom/streamlit_techshot/exercFinal/streamlit_env/bin/python
+#!/home/enacom/streamlit_exercicio_final/exercFinal/streamlit_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
