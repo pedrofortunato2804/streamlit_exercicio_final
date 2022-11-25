@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import pickle
 
-image = Image.open("./heart.jpg")
+image = Image.open("heart.jpg")
 
 st.set_page_config(
     page_title = "Heart Attack"
