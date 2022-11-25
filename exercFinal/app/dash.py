@@ -10,8 +10,9 @@ st.set_page_config(
     page_title = "Heart Attack"
 
 )
+
 st.markdown("# Heart Attack Probability")
-st.image(image, caption = "Heart")
+#st.image(image, caption = "Heart")
 
 age = st.number_input("Idade: ", min_value = 0, max_value = 80)
 
