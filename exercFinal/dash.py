@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import pickle
 
-#image = Image.open("streamlit_exercicio_final/exercFinal/app/heart.jpg")
+image = Image.open("./app/heart.jpg")
 
 st.set_page_config(
     page_title = "Heart Attack"
@@ -50,7 +50,7 @@ d = {
 df = pd.DataFrame(d)
 st.dataframe(df)
 
-with open(r"../models/model.pickle", "rb") as input_file:
+with open(r"./models/model.pickle", "rb") as input_file:
     model = pickle.load(input_file)
 
 r = model.predict_proba(df)
