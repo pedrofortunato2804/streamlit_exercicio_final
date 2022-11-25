@@ -50,7 +50,7 @@ d = {
 df = pd.DataFrame(d)
 st.dataframe(df)
 
-with open("../models/model.pickle", "rb") as input_file:
+with open("./models/model.pickle", "rb") as input_file:
     model = pickle.load(input_file)
 
 r = model.predict_proba(df)
